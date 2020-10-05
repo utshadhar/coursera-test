@@ -12,13 +12,6 @@ body {
     border: 0;
   }
   
-  #logo-img {
-    background: url('../images/restaurant-logo_large.png') no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
-  }
-  
   .navbar-brand {
     padding-top: 25px;
   }
@@ -61,19 +54,6 @@ body {
     font-size: 1.8em;
   }
   
-  #phone {
-    margin-top: 5px;
-  }
-  #phone a { /* Phone number */
-    text-align: right;
-    padding-bottom: 0;
-  }
-  #phone div { /* We Deliver */
-    color: #557c3e;
-    text-align: right;
-    padding-right: 15px;
-  }
-  
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #61122f;
   }
@@ -84,3 +64,47 @@ body {
   /* END HEADER */
   
   
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.row{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.box{
+  
+  display: block;
+    width: 90%;
+    height: auto;
+    border: 0;
+    margin-left: 5%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: orange;
+    color: black;
+}
+
+.box h2{
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+p{
+  padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
